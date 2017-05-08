@@ -57,7 +57,7 @@ if __name__ == "__main__":
     #trainCorpus()
     # 对应的加载方式
     model_soho = word2vec.Word2Vec.load("/Users/didi/Downloads/word2vec/sohuCorpus.model")
-    word=u"前台"
+    word=u"酒店"
     y2 = model_soho.most_similar(word, topn=20)  # 20个最相关的
     print u"和【中国】最相关的词有：\n"
     for item in y2:
