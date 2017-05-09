@@ -1,9 +1,9 @@
 eclipse.preferences.version=1
-encoding//ML/Gensim.py=utf-8
-encoding//ML/KNN.py=utf-8
-encoding//ML/SVM.py=utf-8
-encoding//ML/SVM2.py=utf-8
-encoding//ML/kmeans_city.py=utf-8
+encoding//ml/Gensim.py=utf-8
+encoding//ml/KNN.py=utf-8
+encoding//ml/SVM.py=utf-8
+encoding//ml/SVM2.py=utf-8
+encoding//ml/kmeans_city.py=utf-8
 encoding/FM.py=utf-8
 encoding/MyFileTool.py=utf-8
 encoding/Test.py=utf-8
