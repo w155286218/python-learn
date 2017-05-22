@@ -12,6 +12,7 @@ encoding/MyFileTool.py=utf-8
 encoding/Test.py=utf-8
 encoding/TestML.py=utf-8
 encoding/TestPandas.py=utf-8
+encoding/Test_SVD.py=utf-8
 encoding/test_pandas.py=utf-8
 encoding/tree.py=utf-8
 encoding/word2VecSoho.py=utf-8
