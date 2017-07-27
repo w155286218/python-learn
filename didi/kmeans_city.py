@@ -8,7 +8,6 @@ from sklearn.externals import joblib
 
 def city_cluster(city_data):
     
-    #city_data=np.loadtxt('/Users/didi/Documents/city_cluster/city_cluster')
     x_p=city_data[:,:4]
     
     clf=KMeans(n_clusters=4)
@@ -21,7 +20,7 @@ def city_cluster(city_data):
     #进行预测
     print clf.predict(x_p)
     #保存模型
-    joblib.dump(clf , '/Users/didi/Documents/city_cluster/km0522_03.pkl')
+    joblib.dump(clf, '/Users/didi/Documents/city_cluster/km0522_03.pkl')
     #载入保存的模型
     #clf = joblib.load('/Users/didi/Documents/city_cluster/')
     
@@ -57,7 +56,7 @@ def city_pridict(city_data):
     print label_dict
     
 if __name__=="__main__":
-    city_data=np.loadtxt('/Users/didi/Documents/city_cluster/city_cluster')
+    city_data=np.loadtxt('/Users/didi/Documents/city_cluster/city_cluster1.txt')
     city_cluster(city_data)
     #city_pridict(city_data)
     
